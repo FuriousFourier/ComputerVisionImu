@@ -34,11 +34,13 @@ return ((org.opencv.engine.OpenCVEngineInterface)iin);
 }
 return new org.opencv.engine.OpenCVEngineInterface.Stub.Proxy(obj);
 }
-@Override public android.os.IBinder asBinder()
+@Override
+public android.os.IBinder asBinder()
 {
 return this;
 }
-@Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+@Override
+public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
 java.lang.String descriptor = DESCRIPTOR;
 switch (code)
@@ -99,7 +101,8 @@ Proxy(android.os.IBinder remote)
 {
 mRemote = remote;
 }
-@Override public android.os.IBinder asBinder()
+@Override
+public android.os.IBinder asBinder()
 {
 return mRemote;
 }
@@ -107,7 +110,8 @@ public java.lang.String getInterfaceDescriptor()
 {
 return DESCRIPTOR;
 }
-@Override public int getEngineVersion() throws android.os.RemoteException
+@Override
+public int getEngineVersion() throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
 android.os.Parcel _reply = android.os.Parcel.obtain();
@@ -124,7 +128,8 @@ _data.recycle();
 }
 return _result;
 }
-@Override public java.lang.String getLibPathByVersion(java.lang.String version) throws android.os.RemoteException
+@Override
+public java.lang.String getLibPathByVersion(java.lang.String version) throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
 android.os.Parcel _reply = android.os.Parcel.obtain();
@@ -147,7 +152,8 @@ return _result;
     * @param OpenCV version.
     * @return Returns true if installation was successful or OpenCV package has been already installed.
     */
-@Override public boolean installVersion(java.lang.String version) throws android.os.RemoteException
+@Override
+public boolean installVersion(java.lang.String version) throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
 android.os.Parcel _reply = android.os.Parcel.obtain();
@@ -165,7 +171,8 @@ _data.recycle();
 }
 return _result;
 }
-@Override public java.lang.String getLibraryList(java.lang.String version) throws android.os.RemoteException
+@Override
+public java.lang.String getLibraryList(java.lang.String version) throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
 android.os.Parcel _reply = android.os.Parcel.obtain();

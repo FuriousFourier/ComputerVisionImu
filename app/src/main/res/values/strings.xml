@@ -1,15 +1,3 @@
 <resources>
-    <string name="app_name">NewGui</string>
-
-    <string name="text_view_0">Rotation (in deg)</string>
-    <string name="text_view_1">Z-axis</string>
-    <string name="text_view_2">Y-axis</string>
-    <string name="text_view_3">X-axis</string>
-    <string name="button_start">Start estimation</string>
-    <string name="button_stop">Stop estimation</string>
-
-    <string name="parameters">Parameters for dynamic motion</string>
-    <string name="Qq">Qq = 9.342*10^7</string>
-    <string name="Qw">Qw = 8.159*10^7</string>
-    <string name="Rr">Rr = 3.677</string>
+    <string name="app_name">ComputerVisionImu</string>
 </resources>
